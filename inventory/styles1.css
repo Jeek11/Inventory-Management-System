@@ -1,0 +1,125 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper to center the content */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 36px;
+}
+
+/* Button for Add New Product */
+.btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Search Bar Container */
+.search-container {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Search Input Field */
+.search-input {
+    padding: 8px 10px 8px 30px; /* Add space for icon */
+    width: 300px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-right: 10px;
+}
+
+/* Search Button */
+button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Font Awesome Search Icon */
+.search-container .fa-search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 18px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Link styling for Edit and Delete actions */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Change color of delete icon to red */
+a i.fas.fa-trash-alt {
+    color: red;
+}
+
+/* Change color of delete icon when hovered to dark red */
+a i.fas.fa-trash-alt:hover {
+    color: darkred;
+}
